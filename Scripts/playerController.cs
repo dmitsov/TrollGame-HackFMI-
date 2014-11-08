@@ -20,7 +20,7 @@ namespace PositionControl{
 		{
 			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)){
 				Direction dir = Input.GetKeyDown(KeyCode.A) ? Direction.LEFT : Direction.RIGHT;
-				startMov.Invoke (dir);
+				startMov.Invoke(dir);
 			} else if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.W)){
 				Direction dir = Input.GetKeyDown(KeyCode.W) ? Direction.UP : Direction.DOWN;
 				startMov.Invoke(dir);
